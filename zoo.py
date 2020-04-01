@@ -2,14 +2,14 @@ lista_a=[]
 lista_t=[]
 lista_m=[]
 class animal: 
-    def init(self, nombre, tipo)
+    def init(self, nombre, tipo):
         self.nombre = nombre
         self.tipo   = tipo
        
-    def set_nombre(self,nombre)
+    def set_nombre(self,nombre):
         self.nombre = nombre
           
-    def get_nombre(self)
+    def get_nombre(self):
         print(self.nombre)
         self.get_miprueba()
 
